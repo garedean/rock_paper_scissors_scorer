@@ -24,6 +24,5 @@ get('/winner') do
   else
     @result = "It was a tie!"
   end
-
   erb(:winner)
 end
